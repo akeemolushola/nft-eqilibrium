@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px
+}
+
+.main-card {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    box-shadow: -3px 12px 32px 26px hsla(216, 66%, 10%, 0.89);
+    width: 350px;
+}
+.img-holder {
+    margin: 0 auto;
+    text-align: center;
+} 
+.main-img {
+    height: auto;
+    width: 300px;
+    border-radius: 1rem;
+    /* padding: 1rem 0; */
+}
+
+h3 {
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-left: 0;
+}
+p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+    margin:  .8rem 0
+}
+
+.price-table {
+    display: flex;
+    justify-content: space-between;
+        margin: 0;
+}
+.eth-price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+hr {
+    height: 1px;
+    color: hsl(215, 51%, 70%)
+}
+.creation {
+    font-weight: 400;
+}
+
+.avatar-holder{
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
