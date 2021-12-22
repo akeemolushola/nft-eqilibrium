@@ -68,6 +68,16 @@ hr {
     margin-right: 1rem;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+    .main-card {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .main-img {
+        width: 250px;
+    }
+
+}
 - Soft blue: hsl(215, 51%, 70%)
 - Cyan: hsl(178, 100%, 50%)
 
